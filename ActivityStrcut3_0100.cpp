@@ -27,4 +27,9 @@ int main() {
     cout << "\t Nama Kota : ";
     cin >> mhs.alamat.kota;
 
+    cin.ignore();
+    
+    cout << "Umur Mahasiswa : ";
+    cin >> mhs.umur;
+
 }
